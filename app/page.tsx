@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <main>
       <h1>the best journal app</h1>
-      <h2>working with github</h2>
     </main>
   )
 }
