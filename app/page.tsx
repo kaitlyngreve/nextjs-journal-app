@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -10,5 +9,5 @@ export default function Home() {
       <h1>the best journal app</h1>
       <h2>working with github</h2>
     </main>
-  )
+  );
 }
